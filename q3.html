@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FORM CONTROL</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>OUTPUT:</legend>
+            <h1>Form Input Controls Example</h1>
+            <div>
+                <form>
+                    <label>Name:</label>
+                    <input type="text" placeholder="Enter your name" required>
+                    <label>Password:</label>
+                    <input type="password" placeholder="Enter your password" required>
+                    <label>Email:</label></br>
+                    <input type="email" placeholder="Enter your email" required>
+                    <label>Age:</label>
+                    <input type="number" value="18" min="0" max="100">
+                    <label>Rating:</label>
+                    <input type="range" value="50" max="100">
+                    <label>Date of Birth:</label></br>
+                    <input type="date" value="01-01-2000">
+                    <label>Time:</label>
+                    <input type="time" value="12:00">
+                    <label>Image:</label>
+                    <input type="image" height="50" width="150"></br>
+                    </br>
+                    <label>Week:</label>
+                    <input type="week"></br></br>
+                    <label>Month:</label>
+                    <input type="month"></br></br>
+                    <label>Datetime-local:</label>
+                    <input type="datetime-local"></br></br>
+                    <div>
+                        <label>URL:</label>
+                        <input type="url"></br></br>
+                    </div>
+                    <div>
+                        <label>Search:</label>
+                        <input type="search"></br></br>
+                    </div>
+                    <label for="gen">Gender:</label></br></br>
+                    <input type="radio" id="gen" name="gen">Male
+                    <input type="radio" id="gen" name="gen">Female</br></br>
+                    <label>Interests:</label></br></br>
+                    <input type="checkbox">Reading
+                    <input type="checkbox">Sports
+                    <label>Country:</label>
+                    <select>
+                        <option>United States</option>
+                        <option>India</option>
+                        <option>England</option>
+                        <option>China</option>
+                    </select>
+                    <label>Message:</label>
+                    <textarea cols="50" rows="5">Enter your message</textarea>
+                    <input type="submit">
+                </form>
+            </div>
+        </fieldset>
+    </body>
+</html>
